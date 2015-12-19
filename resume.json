@@ -1,0 +1,265 @@
+{
+  "basics": {
+    "name": "Tseng Yi",
+    "label": "Programmer",
+    "picture": "",
+    "email": "a86487817@gmail.com",
+    "phone": "+886-955-570-907",
+    "website": "https://takeshi.tw",
+    "summary": "About me",
+    "location": {
+      "address": "12F., No.3, Ln. 15, Keqiang Rd., Shilin Dist.",
+      "postalCode": "111",
+      "city": "Taipei",
+      "countryCode": "TW",
+      "region": "Taiwan (R.O.C)"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "yi_tseng",
+        "url": "https://twitter.com/yi_tseng"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Yi Tseng",
+        "url": "https://tw.linkedin.com/in/yitseng"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Cyber Link",
+      "position": "QA intern",
+      "website": "http://tw.cyberlink.com/",
+      "startDate": "2010-07-01",
+      "endDate": "2010-08-30",
+      "summary": "",
+      "highlights": [
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "HITCON 2012",
+      "position": "Staff",
+      "website": "http://hitcon.org/2012",
+      "startDate": "2012-07-20",
+      "endDate": "2012-07-21",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "SITCON 2013",
+      "position": "Admin Team",
+      "website": "http://sitcon.org/2013",
+      "startDate": "2013-03-16",
+      "endDate": "2013-03-16",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "HITCON 2013",
+      "position": "Staff",
+      "website": "http://hitcon.org/2013",
+      "startDate": "2013-07-19",
+      "endDate": "2013-07-20",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "SITCON 2014",
+      "position": "Agenda Team",
+      "website": "http://sitcon.org/2014",
+      "startDate": "2014-03-15",
+      "endDate": "2014-03-15",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "HITCON 2014",
+      "position": "Staff",
+      "website": "http://hitcon.org/2014",
+      "startDate": "2014-08-21",
+      "endDate": "2013-08-22",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "SITCON 2015",
+      "position": "Agenda Team",
+      "website": "http://sitcon.org/2015",
+      "startDate": "2015-03-07",
+      "endDate": "2015-03-07",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Tatung University",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2010-09-01",
+      "endDate": "2014-06-01",
+      "gpa": "3.9",
+      "courses": [
+        "I1251A/I1252A - Computer Programming",
+        "I3120 - Advanced Java Programming",
+        "I3120 - Database Systems",
+        "I4010 - Web Application Programming And Security",
+        "I4050 - System Security"
+      ]
+    },
+    {
+      "institution": "National Chiao Tung University",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2014-07-01",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": [
+        "IOC5157 - Free and Open Source Software and Project Collaboration",
+        "IOE5015 - Network Programming",
+        "IOE5048 - Network Security",
+        "IOE5080 - Software-Defined Networks"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "2015 軟體定義網路（SDN）創新應用競賽",
+      "date": "2015-12-16",
+      "awarder": "產業應用潛力獎",
+      "summary": "Contest for Software-Defined Networks."
+    },
+    {
+      "title": "2013 ACM ICPC NCPU",
+      "date": "2013-07-03",
+      "awarder": "3rd place",
+      "summary": "National programming contest for private universities."
+    },
+    {
+      "title": "2012 ITSA Programming Contest",
+      "date": "2012-12-29",
+      "awarder": "2rd place",
+      "summary": "National programming contest for private universities."
+    }
+  ],
+  "publications": [
+  ],
+  "skills": [
+    {
+      "name": "Web",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "RWD",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "",
+      "keywords": [
+        "ExpressJS",
+        "Django",
+        "Laravel"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python",
+        "JavaScript/Node.js",
+        "C/C++"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "keywords": [
+        "git/GitHub",
+        "Linux",
+        "FreeBSD"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Normal(TOEIC score : 685)"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Little(JLPT N5)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cooking",
+      "keywords": [
+        "Western desserts",
+        "Chinese food"
+      ]
+    },
+    {
+      "name": "Make",
+      "keywords": [
+        "3D Printer",
+        "Quadcopter"
+      ]
+    }
+  ],
+  "references": [
+  ],
+  "projects": [
+    {
+      "title": "Seating List System",
+      "url": "https://github.com/TakeshiTseng/SitconSeatingChart",
+      "summary": "Seating list system for every conference in Academia Sinica(中央研究院) International Conference Hall.",
+      "techniques": [
+        "Node.js",
+        "Express",
+        "Mongo DB",
+        "Web Socket",
+        "RWD"
+      ]
+    },
+    {
+      "title": "SITCONAskVote",
+      "url": "https://github.com/TakeshiTseng/SitconAskVote",
+      "summary": "SITCONAskVote is a voting system for SITCON 2015 forum, attendees can use this system to ask question",
+      "techniques": [
+        "Python",
+        "Django",
+        "Mysql",
+        "RWD"
+      ]
+    },
+    {
+      "title": "Ryu",
+      "url": "https://github.com/osrg/ryu",
+      "summary": "Ryu is a component-based software defined networking(SDN) framework. Ryu provides software components with well defined API that make it easy for developers to create new network management and control applications.",
+      "techniques": [
+        "Python",
+        "Software defined network"
+      ]
+    },
+    {
+      "title": "Dragon Knight",
+      "url": "https://github.com/Ryu-Dragon-Knight/Dragon-Knight",
+      "summary": "Dragon Knight is a plugin for Ryu and allows Ryu install application dynamically without closing ryu process.",
+      "techniques": [
+        "Python",
+        "Software defined network"
+      ]
+    }
+  ]
+}
