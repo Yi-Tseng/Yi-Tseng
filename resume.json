@@ -41,57 +41,21 @@
   ],
   "volunteer": [
     {
-      "organization": "HITCON 2012",
+      "organization": "HITCON",
       "position": "Staff",
-      "website": "http://hitcon.org/2012",
-      "startDate": "2012-07-20",
-      "endDate": "2012-07-21",
-      "summary": "",
+      "website": "http://hitcon.org/",
+      "startDate": "2012",
+      "endDate": "2014",
+      "summary": "Hacks In Taiwan Conference.",
       "highlights": []
     },
     {
-      "organization": "SITCON 2013",
-      "position": "Admin Team",
-      "website": "http://sitcon.org/2013",
-      "startDate": "2013-03-16",
-      "endDate": "2013-03-16",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "HITCON 2013",
-      "position": "Staff",
-      "website": "http://hitcon.org/2013",
-      "startDate": "2013-07-19",
-      "endDate": "2013-07-20",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "SITCON 2014",
-      "position": "Agenda Team",
-      "website": "http://sitcon.org/2014",
-      "startDate": "2014-03-15",
-      "endDate": "2014-03-15",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "HITCON 2014",
-      "position": "Staff",
-      "website": "http://hitcon.org/2014",
-      "startDate": "2014-08-21",
-      "endDate": "2013-08-22",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "SITCON 2015",
-      "position": "Agenda Team",
-      "website": "http://sitcon.org/2015",
-      "startDate": "2015-03-07",
-      "endDate": "2015-03-07",
-      "summary": "",
+      "organization": "SITCON",
+      "position": "Admin & Agenda Team",
+      "website": "http://sitcon.org",
+      "startDate": "2013",
+      "endDate": "2015",
+      "summary": "Students' Information Technology Conference",
       "highlights": []
     }
   ],
