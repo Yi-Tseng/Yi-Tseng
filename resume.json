@@ -185,7 +185,8 @@
       "name": "Make",
       "keywords": [
         "3D Printer",
-        "Quadcopter"
+        "Quadcopter",
+        "Arduino"
       ]
     }
   ],
