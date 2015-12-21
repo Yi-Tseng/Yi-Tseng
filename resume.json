@@ -194,7 +194,7 @@
     {
       "title": "Seating List System",
       "url": "https://github.com/TakeshiTseng/SitconSeatingChart",
-      "summary": "Seating list system for every conference in Academia Sinica(中央研究院) International Conference Hall.",
+      "summary": "Seating list system for every conference in Academia Sinica International Conference Hall.",
       "techniques": [
         "Node.js",
         "Express",
