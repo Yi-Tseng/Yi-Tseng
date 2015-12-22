@@ -202,7 +202,7 @@
     {
       "title": "SITCONAskVote",
       "url": "https://github.com/TakeshiTseng/SitconAskVote",
-      "summary": "SITCONAskVote is a voting system for SITCON 2015 forum, attendees can use this system to ask question",
+      "summary": "SITCONAskVote is a voting system for SITCON 2015 forum, attendees can use this system to ask question.<br>Video : <a href=\"https://youtu.be/4b8Q8F6GYDk?t=22m24s\">https://youtu.be/4b8Q8F6GYDk?t=22m24s</a>",
       "techniques": [
         "Python",
         "Django",
