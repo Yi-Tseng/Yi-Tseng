@@ -4,16 +4,10 @@
     "label": "Programmer",
     "picture": "http://s.gravatar.com/avatar/b721195e879c1ccab06a714f9d15b1da",
     "email": "a86487817@gmail.com",
-    "phone": "+886-955-570-907",
+    "phone": "",
     "website": "https://takeshi.tw",
-    "summary": "I am a graduate student from NCTU and my current research topic is Software Defined Network. <br>I enjoy to learn new things, like new programming languages and tools.&nbsp; Also, I like to participate technical conference which held by community, such like COSCUP, SITCON, HITCON and so on.<br>Although my current research topic is networking, I still learning new technique like Django, FreeBSD, RWD... etc.<br>Moreover, I love to contribute to open source project because it's is not only improve my skills but also help others to make it better.",
-    "location": {
-      "address": "12F., No.3, Ln. 15, Keqiang Rd., Shilin Dist.",
-      "postalCode": "111",
-      "city": "Taipei",
-      "countryCode": "TW",
-      "region": "Taiwan (R.O.C)"
-    },
+    "summary": "I am a graduate student from NCTU and my current research topic is Software Defined Network. <br>I enjoy learning new things, like new programming languages and tools.&nbsp; Also, I like to participate technical conference which held by community, such like COSCUP, SITCON, HITCON and so on.<br>Although my current research topic is networking, I still learning new technique like Django, FreeBSD, RWD... etc. After I learned new technique, I always share to my friends. Usually, I'll use these new technique to implement new project.<br>Moreover, I love to contribute to open source project because it's is not only improve my skills but also help others to make it better.",
+    "location": {},
     "profiles": [
       {
         "network": "Twitter",
