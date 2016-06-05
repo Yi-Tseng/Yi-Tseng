@@ -6,20 +6,9 @@
     "email": "a86487817@gmail.com",
     "phone": "",
     "website": "https://takeshi.tw",
-    "summary": "I am a graduate student from NCTU and my current research topic is Software Defined Network. <br>I enjoy learning new things, like new programming languages and tools.&nbsp; Also, I like to participate technical conference which held by community, such like COSCUP, SITCON, HITCON and so on.<br>Although my current research topic is networking, I still learning new technique like Django, FreeBSD, RWD... etc. After I learned new technique, I always share to my friends. Usually, I'll use these new technique to implement new project.<br>Moreover, I love to contribute to open source project because it's is not only improve my skills but also help others to make it better.",
+    "summary": "I am a graduate student from NCTU and my current research topic is Software Defined Network. <br>I enjoy learning new things, like new programming languages and tools.&nbsp; Also, I like to participate technical conferences which held by community, such like COSCUP, SITCON, HITCON and so on.<br>Although my current research topic is networking, I still learning new technique like Django, FreeBSD, RWD... etc. After I learned new technique, I always share to my friends. Usually, I'll use these new technique to implement new project.<br>Moreover, I love to contribute to open source project because it's is not only improve my skills but also help others to make it better.",
     "location": {},
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "yi_tseng",
-        "url": "https://twitter.com/yi_tseng"
-      },
-      {
-        "network": "Linkedin",
-        "username": "Yi Tseng",
-        "url": "https://tw.linkedin.com/in/yitseng"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
@@ -28,7 +17,7 @@
       "website": "http://tw.cyberlink.com/",
       "startDate": "2010-07-01",
       "endDate": "2010-08-30",
-      "summary": "In Quality Assurance team. My mission is to find any bugs in the product.<br>I developed autometic testing tools by using <a href=\"https://www.autoitscript.com/site/autoit/\">Autoit</a> and it helped me to complete my jobs quickly.<br>",
+      "summary": "In Quality Assurance team. My mission is to find any bugs in the product.<br>I developed automatic testing tools by using <a href=\"https://www.autoitscript.com/site/autoit/\">Autoit</a> and it helped me to complete my jobs quickly.<br>",
       "highlights": [
       ]
     }
@@ -37,7 +26,7 @@
     {
       "organization": "HITCON",
       "position": "Staff",
-      "website": "http://hitcon.org/",
+      "website": "http://hitcon.org",
       "startDate": "2012",
       "endDate": "2014",
       "summary": "",
@@ -61,6 +50,7 @@
       "startDate": "2010-09-01",
       "endDate": "2014-06-01",
       "gpa": "3.9",
+      "rank": "1/97",
       "courses": [
         "I1251A/I1252A - Computer Programming",
         "I3120 - Advanced Java Programming",
@@ -114,41 +104,35 @@
   ],
   "skills": [
     {
-      "name": "Web",
-      "level": "",
+      "name": "Software-defined network application development",
+      "level": "Working knowledge",
       "keywords": [
-        "HTML",
-        "RWD",
-        "jQuery"
+        "Network management application development",
+        "Multi-controller application",
+        "Protocol independent packet processor design"
       ]
     },
     {
-      "name": "Backend",
-      "level": "",
+      "name": "Backend development",
+      "level": "Working knowledge",
       "keywords": [
-        "ExpressJS",
-        "Django",
-        "Laravel"
+        "RESTful API design",
+        "SQL & NoSQL DB schema design"
       ]
     },
     {
-      "name": "Programming Languages",
-      "level": "",
+      "name": "Version control system",
+      "level": "Working knowledge",
       "keywords": [
-        "Java",
-        "Python",
-        "JavaScript/Node.js",
-        "C/C++"
+        "git"
       ]
     },
     {
-      "name": "Other",
-      "level": "",
+      "name": "Frontend development",
+      "level": "Basic knowledge",
       "keywords": [
-        "git/GitHub",
-        "Linux",
-        "FreeBSD",
-        "nginx"
+        "RWD web page design",
+        "Single page web application"
       ]
     }
   ],
@@ -166,29 +150,32 @@
       "fluency": "Little(JLPT N5)"
     }
   ],
-  "interests": [
-    {
-      "name": "Cooking",
-      "keywords": [
-        "Coffee",
-        "Western desserts",
-        "Chinese food"
-      ]
-    },
-    {
-      "name": "Make",
-      "keywords": [
-        "3D Printer",
-        "Quadcopter",
-        "Arduino"
-      ]
-    }
-  ],
   "references": [
   ],
   "projects": [
     {
-      "title": "Seating List System",
+      "title": "SDN-IP Example VM (Maintainer)",
+      "url": "https://github.com/sdnds-tw/SDN-IP-Example-VM",
+      "summary": "SDN-IP Example VM (Taiwan NCTU site version)",
+      "techniques": [
+        "Ansible",
+        "ONOS SDN-IP",
+        "Ryu SDN-IP",
+        "Quagga BGP speaker",
+        "GoBGP BGP speaker"
+      ]
+    },
+    {
+      "title": "Ryu SDN-IP (Maintainer)",
+      "url": "https://github.com/sdnds-tw/Ryu-SDN-IP",
+      "summary": "SDN-IP project implemented by Ryu SDN framework.",
+      "techniques": [
+        "Ryu SDN Framework",
+        "BGP"
+      ]
+    },
+    {
+      "title": "Seating List System (Maintainer)",
       "url": "https://github.com/TakeshiTseng/SitconSeatingChart",
       "summary": "Seating list system for every conference in Academia Sinica International Conference Hall.",
       "techniques": [
@@ -200,7 +187,7 @@
       ]
     },
     {
-      "title": "SITCONAskVote",
+      "title": "SITCONAskVote (Maintainer)",
       "url": "https://github.com/TakeshiTseng/SitconAskVote",
       "summary": "SITCONAskVote is a voting system for SITCON 2015 forum, attendees can use this system to ask question.<br>Video : <a href=\"https://youtu.be/4b8Q8F6GYDk?t=22m24s\">https://youtu.be/4b8Q8F6GYDk?t=22m24s</a>",
       "techniques": [
@@ -211,7 +198,7 @@
       ]
     },
     {
-      "title": "Ryu",
+      "title": "Ryu (Contributor)",
       "url": "https://github.com/osrg/ryu",
       "summary": "Ryu is a component-based software defined networking(SDN) framework. Ryu provides software components with well defined API that make it easy for developers to create new network management and control applications.",
       "techniques": [
@@ -220,7 +207,7 @@
       ]
     },
     {
-      "title": "Dragon Knight",
+      "title": "Dragon Knight (Maintainer)",
       "url": "https://github.com/Ryu-Dragon-Knight/Dragon-Knight",
       "summary": "Dragon Knight is a plugin for Ryu and allows Ryu install application dynamically without closing ryu process.",
       "techniques": [
