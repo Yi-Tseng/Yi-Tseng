@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Tseng Yi",
+    "name": "Yi Tseng",
     "label": "Developer",
     "picture": "http://s.gravatar.com/avatar/b721195e879c1ccab06a714f9d15b1da",
     "email": "a86487817@gmail.com",
@@ -123,7 +123,7 @@
   ],
   "skills": [
     {
-      "name": "Software-defined network application development",
+      "name": "Software-defined network application design and development",
       "level": "Working knowledge",
       "keywords": [
         "Network management application development",
@@ -143,7 +143,7 @@
   ],
   "languages": [
     {
-      "language": "Chinese",
+      "language": "Mandarin",
       "fluency": "Native"
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "language": "Japanese",
-      "fluency": "Little(JLPT N5)"
+      "fluency": "Elementary(JLPT N5)"
     }
   ],
   "references": [
@@ -161,35 +161,44 @@
     {
       "title": "ONOS™",
       "url": "https://onosproject.org/",
-      "summary": "",
+      "summary": "<i>Developer</i>, <i>Moudle owner</i>",
       "techniques": [
         "Software-defined networking",
-        "BGP",
         "Segment routing",
         "VPLS/MPLS",
+        "BGP",
         "Java"
-      ]
-    },
-    {
-      "title": "CORD®",
-      "url": "http://opencord.org/",
-      "summary": "",
-      "techniques": [
-        "Service provider",
-        "Central office",
-        "Virtual netowkr function (VNF)",
-        "DevOps",
-        "Service function chaining"
       ]
     },
     {
       "title": "fabric.p4",
       "url": "https://goo.gl/JvAZE3",
-      "summary": "",
+      "summary": "<i>Developer</i>",
       "techniques": [
         "Protocol independent packet processor(P4)",
-        "CORD underlay network",
+        "CORD® underlay network",
         "Segment routing",
+        "VNF offloading"
+      ]
+    },
+    {
+      "title": "ONOS™ with Google tor.p4 demo",
+      "url": "https://goo.gl/3F5Fbx",
+      "summary": "<i>Developer</i>",
+      "techniques": [
+        "Programmable data plane",
+        "Protocol independent packet processor",
+        "ECMP routing"
+      ]
+    },
+    {
+      "title": "M-CORD 2018 MWC Barcelona demo",
+      "url": "https://goo.gl/fWaby7",
+      "summary": "<i>Developer</i>",
+      "techniques": [
+        "Programmable data plane",
+        "5G mobile network",
+        "Mobile Edge Computing",
         "VNF offloading"
       ]
     }
