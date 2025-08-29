@@ -28,15 +28,13 @@
       "url": "https://www.intel.com/",
       "startDate": "2022-04",
       "endDate": "2025-07",
-      "summary": "Worked on the Platform Team providing foundational services for the Edge Manageability Framework (EMF). Managed internal services for internal developers including the Coder service with 99.99% uptime. Developed several side projects related to generative AI for service management automation.",
+      "summary": "At Intel, I worked on the Platform Team providing foundational services for the Edge Manageability Framework (EMF). I developed generative AI applications for service management automation and maintained several internal clusters and critical developer services.",
       "highlights": [
         "Edge Manageability Framework development",
         "AWS services integration (EKS, RDS, S3, ECS, Load Balancers)",
-        "Coder service management with 99.99% uptime",
         "AWS EC2, IAM, Lambda infrastructure management",
         "Kubernetes-based edge application deployment",
-        "DevOps",
-        "GitOps",
+        "DevOps & GitOps",
         "AI/ML model development and deployment",
         "Generative AI agentic applications",
         "RAG (Retrieval Augmented Generation)",
@@ -50,7 +48,7 @@
       "url": "https://www.opennetworking.org/",
       "startDate": "2018-07",
       "endDate": "2022-04",
-      "summary": "",
+      "summary": "At ONF, I collaborated with Google, Intel, and switch vendors like EdgeCore, QCT on a switch operating system called Stratum. It allows users to manage switches with P4Runtime, gNMI, and gNOI protocols. Stratum became an important part of the SD-Fabric project, which is a full-stack, programmable network fabric that enables new classes of emerging edge applications.",
       "highlights": [
         "Software-defined networking",
         "Switch Operating System",
@@ -126,7 +124,7 @@
   "skills": [
     {
       "name": "DevOps & Infrastructure",
-      "level": "Working knowledge",
+      "level": "",
       "keywords": [
         "Infrastructure as Code (Terraform)",
         "GitOps (ArgoCD)",
@@ -139,7 +137,7 @@
     },
     {
       "name": "Cloud & Edge Computing",
-      "level": "Working knowledge",
+      "level": "",
       "keywords": [
         "Edge Manageability Framework",
         "AWS services (EKS, RDS, S3, ECS, Load Balancers)",
@@ -151,7 +149,7 @@
     },
     {
       "name": "AI/ML & Generative AI",
-      "level": "Working knowledge",
+      "level": "",
       "keywords": [
         "Machine Learning model development",
         "Artificial Neural Networks",
@@ -164,7 +162,7 @@
     },
     {
       "name": "Software-defined network application design and development",
-      "level": "Working knowledge",
+      "level": "",
       "keywords": [
         "Network management application development",
         "Multi-controller application",
@@ -174,7 +172,7 @@
     },
     {
       "name": "Backend development",
-      "level": "Working knowledge",
+      "level": "",
       "keywords": [
         "RESTful API design",
         "SQL & NoSQL DB schema design"
@@ -188,9 +186,22 @@
   "references": [],
   "projects": [
     {
+      "name": "Edge Manageability Framework",
+      "url": "",
+      "description": "A comprehensive solution designed to streamline and enhance the deployment and management of infrastructure and applications at the edge",
+      "highlights": [
+        "Edge computing infrastructure management",
+        "Kubernetes orchestration",
+        "AWS services integration",
+        "GitOps deployment workflows",
+        "Infrastructure as Code",
+        "Comprehensive edge solution design"
+      ]
+    },
+    {
       "name": "GenAI Coder Service Management Agent",
       "url": "",
-      "description": "Developer, Personal Project",
+      "description": "An agentic application that uses custom tools to manage internal Coder service (a service that creates development environments for internal developers).",
       "highlights": [
         "Local model deployment",
         "Generative AI agent development",
@@ -202,9 +213,9 @@
       ]
     },
     {
-      "name": "ONOS™",
-      "url": "https://onosproject.org/",
-      "description": "Developer, Module owner",
+      "name": "ONOS",
+      "url": "",
+      "description": "Open Network Operating System (ONOS) is the leading open source SDN controller for building next-generation SDN/NFV solutions.",
       "highlights": [
         "Software-defined networking",
         "Segment routing",
@@ -214,9 +225,9 @@
       ]
     },
     {
-      "name": "fabric.p4",
-      "url": "https://goo.gl/JvAZE3",
-      "description": "Developer",
+      "name": "SD-Fabric",
+      "url": "",
+      "description": "The SD-Fabric™ is is a developer-friendly, cloud-managed, full stack, programmable network fabric that enables new classes of emerging edge applications for Industry 4.0 powered by 5G.",
       "highlights": [
         "Protocol independent packet processor(P4)",
         "CORD® underlay network",
@@ -225,9 +236,9 @@
       ]
     },
     {
-      "name": "ONOS™ with Google tor.p4 demo",
+      "name": "ONOS with Google tor.p4 demo",
       "url": "https://goo.gl/3F5Fbx",
-      "description": "Developer",
+      "description": "The first P4 program that works on commercial hardware with integration with ONOS SDN controller and P4Runtime protocol. We showcased this at the SDN NFV World Congress and gained significant attention.",
       "highlights": [
         "Programmable data plane",
         "Protocol independent packet processor",

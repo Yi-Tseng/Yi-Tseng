@@ -1,6 +1,3 @@
-
-jsonresume/jsonresume-theme-flat-yi/
-
 *.log
-
-jsonresume/resume-cli/
+node_modules
+*.pdf
