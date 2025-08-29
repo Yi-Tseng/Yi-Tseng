@@ -1,24 +1,74 @@
 {
   "basics": {
     "name": "Yi Tseng",
-    "label": "Developer",
-    "picture": "http://s.gravatar.com/avatar/b721195e879c1ccab06a714f9d15b1da",
+    "label": "",
+    "image": "",
     "email": "a86487817@gmail.com",
     "phone": "",
-    "website": "https://takeshi.tw",
-    "github": "https://github.com/TakeshiTseng",
-    "summary": "I am a graduate student from NCTU, and my current research topic is <b>Software-Defined Networking</b>.<br><br>At the end of 2016, I decided to go aboard to learn new things, so I postponed my master degree and joined <b>Open Networking Foundation/Lab</b> as an internship.<br><br>During the internship, I collaborate with other companies such as <b>Google</b>, <b>Intel</b>, <b>Barefoot</b> and so on. I learned not only new technologies but how to work with other people.<br><br>In my spare time, I love to contribute to open source project because it's is not only improve my skills but also help others to make it better.",
+    "url": "https://github.com/Yi-Tseng",
+    "summary": "Experienced Cloud Software Development Engineer with expertise in edge computing, Kubernetes orchestration, and AI/ML applications. Proven track record in developing scalable infrastructure solutions, integrating cloud services, and building intelligent applications with generative AI technologies.",
     "location": {},
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yi-tseng",
+        "url": "https://www.linkedin.com/in/yi-tseng/"
+      },
+      {
+        "network": "Medium",
+        "username": "a86487817",
+        "url": "https://medium.com/@a86487817"
+      }
+    ]
   },
   "work": [
     {
-      "company": "Open Networking Foundation/Lab",
+      "name": "Intel",
+      "position": "Cloud Software Development Engineer",
+      "url": "https://www.intel.com/",
+      "startDate": "2022-04",
+      "endDate": "2025-07",
+      "summary": "Worked on the Platform Team providing foundational services for the Edge Manageability Framework (EMF). Managed internal services for internal developers including the Coder service with 99.99% uptime. Developed several side projects related to generative AI for service management automation.",
+      "highlights": [
+        "Edge Manageability Framework development",
+        "AWS services integration (EKS, RDS, S3, ECS, Load Balancers)",
+        "Coder service management with 99.99% uptime",
+        "AWS EC2, IAM, Lambda infrastructure management",
+        "Kubernetes-based edge application deployment",
+        "DevOps",
+        "GitOps",
+        "AI/ML model development and deployment",
+        "Generative AI agentic applications",
+        "RAG (Retrieval Augmented Generation)",
+        "golang application development",
+        "Infrastructure as Code(Terraform)"
+      ]
+    },
+    {
+      "name": "Open Networking Foundation",
+      "position": "Member of Technical Staff",
+      "url": "https://www.opennetworking.org/",
+      "startDate": "2018-07",
+      "endDate": "2022-04",
+      "summary": "",
+      "highlights": [
+        "Software-defined networking",
+        "Switch Operating System",
+        "DevOps",
+        "Kubernetes",
+        "Java",
+        "Python",
+        "golang",
+        "Terraform"
+      ]
+    },
+    {
+      "name": "Open Networking Foundation/Lab",
       "position": "Intern",
-      "website": "https://www.opennetworking.org/",
-      "startDate": "2017-01-16",
-      "endDate": "2018-02-28",
-      "summary": "During the internship, I work on SDN controller(<a href=\"https://onosproject.org/\">ONOS</a>),  programmable data plane(<a href=\"http://p4.org/\">P4</a>), and next-generation mobile cloud  (<a href=\"https://www.opennetworking.org/solutions/m-cord/\">M-CORD</a>).<br>",
+      "url": "https://www.opennetworking.org/",
+      "startDate": "2017-01",
+      "endDate": "2018-02",
+      "summary": "During the internship, I work on SDN controller (ONOS), programmable data plane (P4), and next-generation mobile cloud (M-CORD).",
       "highlights": [
         "Software-defined networking",
         "Network operating system",
@@ -30,46 +80,39 @@
       ]
     },
     {
-      "company": "Cyber Link",
+      "name": "Cyber Link",
       "position": "QA intern",
-      "website": "http://tw.cyberlink.com/",
-      "startDate": "2010-07-01",
-      "endDate": "2010-08-30",
-      "summary": "In Quality Assurance team. My mission is to find any bugs in the product.<br>I developed automatic testing tools by using <a href=\"https://www.autoitscript.com/site/autoit/\">Autoit</a> and it helped me to complete my jobs quickly.<br>",
+      "url": "http://tw.cyberlink.com/",
+      "startDate": "2010-07",
+      "endDate": "2010-08",
+      "summary": "In Quality Assurance team. My mission is to find any bugs in the product. I developed automatic testing tools by using Autoit and it helped me to complete my jobs quickly.",
       "highlights": [
         "Unit test"
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "HITCON",
-      "position": "Staff",
-      "website": "http://hitcon.org",
-      "startDate": "2012",
-      "endDate": "2014",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "organization": "SITCON",
-      "position": "Admin & Agenda Team",
-      "website": "http://sitcon.org",
-      "startDate": "2013",
-      "endDate": "2015",
-      "summary": "",
-      "highlights": []
-    }
-  ],
+  "volunteer": [],
   "education": [
+    {
+      "institution": "National Chiao Tung University",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2014-07",
+      "endDate": "2018-02",
+      "courses": [
+        "IOC5157 - Free and Open Source Software and Project Collaboration",
+        "IOE5015 - Network Programming",
+        "IOE5048 - Network Security",
+        "IOE5080 - Software-Defined Networks"
+      ]
+    },
     {
       "institution": "Tatung University",
       "area": "Computer Science and Engineering",
       "studyType": "Bachelor",
       "startDate": "2010-09-01",
       "endDate": "2014-06-01",
-      "gpa": "3.9",
-      "rank": "1/97",
+      "score": "3.9/4.0",
       "courses": [
         "I1251A/I1252A - Computer Programming",
         "I3120 - Advanced Java Programming",
@@ -77,51 +120,48 @@
         "I4010 - Web Application Programming And Security",
         "I4050 - System Security"
       ]
-    },
-    {
-      "institution": "National Chiao Tung University",
-      "area": "Computer Science",
-      "studyType": "Master",
-      "startDate": "2014-07-01",
-      "endDate": "Present",
-      "gpa": "",
-      "courses": [
-        "IOC5157 - Free and Open Source Software and Project Collaboration",
-        "IOE5015 - Network Programming",
-        "IOE5048 - Network Security",
-        "IOE5080 - Software-Defined Networks"
-      ]
     }
   ],
-  "awards": [
-    {
-      "title": "2015 Mobile Hero, SDN Contest",
-      "date": "2015-12-16",
-      "awarder": "Market Potential Award",
-      "summary": "Contest for Software-Defined Networks."
-    },
-    {
-      "title": "Academic Achievement Award",
-      "date": "2015-11-12",
-      "awarder": "",
-      "summary": "NCTU Academic Achievement Award(Rank:16/143)"
-    },
-    {
-      "title": "2013 ACM ICPC NCPU",
-      "date": "2013-07-03",
-      "awarder": "3rd place",
-      "summary": "National programming contest for private universities."
-    },
-    {
-      "title": "2012 ITSA Programming Contest",
-      "date": "2012-12-29",
-      "awarder": "2rd place",
-      "summary": "National programming contest for private universities."
-    }
-  ],
-  "publications": [
-  ],
+  "awards": [],
   "skills": [
+    {
+      "name": "DevOps & Infrastructure",
+      "level": "Working knowledge",
+      "keywords": [
+        "Infrastructure as Code (Terraform)",
+        "GitOps (ArgoCD)",
+        "Jenkins pipeline development",
+        "GitHub Actions development",
+        "AWS service design",
+        "Cluster lifecycle management",
+        "CI/CD automation"
+      ]
+    },
+    {
+      "name": "Cloud & Edge Computing",
+      "level": "Working knowledge",
+      "keywords": [
+        "Edge Manageability Framework",
+        "AWS services (EKS, RDS, S3, ECS, Load Balancers)",
+        "Kubernetes orchestration",
+        "Hardware onboarding",
+        "Secure workload deployment",
+        "Istio service mesh"
+      ]
+    },
+    {
+      "name": "AI/ML & Generative AI",
+      "level": "Working knowledge",
+      "keywords": [
+        "Machine Learning model development",
+        "Artificial Neural Networks",
+        "Generative AI applications (GPT)",
+        "RAG (Retrieval Augmented Generation)",
+        "AI Agent development",
+        "LangChain framework",
+        "LlamaIndex framework"
+      ]
+    },
     {
       "name": "Software-defined network application design and development",
       "level": "Working knowledge",
@@ -141,28 +181,31 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "Mandarin",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Normal(TOEIC score : 685)"
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Elementary(JLPT N5)"
-    }
-  ],
-  "references": [
-  ],
+  "certificates": [],
+  "publications": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "title": "ONOS™",
+      "name": "GenAI Coder Service Management Agent",
+      "url": "",
+      "description": "Developer, Personal Project",
+      "highlights": [
+        "Local model deployment",
+        "Generative AI agent development",
+        "Chat bot implementation",
+        "LLM tool calls",
+        "Prompt engineering",
+        "ReAct prompting",
+        "Service monitoring automation"
+      ]
+    },
+    {
+      "name": "ONOS™",
       "url": "https://onosproject.org/",
-      "summary": "<i>Developer</i>, <i>Moudle owner</i>",
-      "techniques": [
+      "description": "Developer, Module owner",
+      "highlights": [
         "Software-defined networking",
         "Segment routing",
         "VPLS/MPLS",
@@ -171,10 +214,10 @@
       ]
     },
     {
-      "title": "fabric.p4",
+      "name": "fabric.p4",
       "url": "https://goo.gl/JvAZE3",
-      "summary": "<i>Developer</i>",
-      "techniques": [
+      "description": "Developer",
+      "highlights": [
         "Protocol independent packet processor(P4)",
         "CORD® underlay network",
         "Segment routing",
@@ -182,24 +225,13 @@
       ]
     },
     {
-      "title": "ONOS™ with Google tor.p4 demo",
+      "name": "ONOS™ with Google tor.p4 demo",
       "url": "https://goo.gl/3F5Fbx",
-      "summary": "<i>Developer</i>",
-      "techniques": [
+      "description": "Developer",
+      "highlights": [
         "Programmable data plane",
         "Protocol independent packet processor",
         "ECMP routing"
-      ]
-    },
-    {
-      "title": "M-CORD 2018 MWC Barcelona demo",
-      "url": "https://goo.gl/fWaby7",
-      "summary": "<i>Developer</i>",
-      "techniques": [
-        "Programmable data plane",
-        "5G mobile network",
-        "Mobile Edge Computing",
-        "VNF offloading"
       ]
     }
   ]
