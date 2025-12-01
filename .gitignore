@@ -1,3 +1,2 @@
-*.log
-node_modules
-*.pdf
+resume.pdf
+.DS_Store
