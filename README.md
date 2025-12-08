@@ -1,119 +1,53 @@
-# Resume
+# Hi there, I'm Yi Tseng
 
-This repository contains my professional resume in Markdown format with tools to generate a PDF version.
+**Senior Software Engineer** specializing in **Cloud Infrastructure** and **Generative AI**
 
-## Prerequisites
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yi-tseng/)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@a86487817)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a86487817@gmail.com)
 
-To generate the PDF, you need to install:
+---
 
-1. **pandoc** - Document converter
-2. **basictex** - LaTeX distribution for PDF generation
+## What I Do
 
-### Installation (macOS)
+I build **scalable cloud infrastructure** and **AI-powered automation systems**. My work focuses on:
 
-```bash
-brew install pandoc
-brew install --cask basictex
-```
+- **AI Agent Development** - Building intelligent agents with RAG, LangChain, and LlamaIndex
+- **Cloud Architecture** - Deploying production systems on AWS and Kubernetes
+- **DevOps & Platform Engineering** - Infrastructure as Code, GitOps, and CI/CD automation
+- **Software-Defined Networking** - Contributing to open-source SDN projects with Google and Intel
 
-**After installing basictex, restart your terminal** to ensure the TeX binaries are in your PATH.
+---
 
-### Installation (Linux)
+## Highlights
 
-```bash
-# Ubuntu/Debian
-sudo apt-get install pandoc texlive-xetex
+- **Reduced security vulnerability detection time from 2 hours to 10 minutes** by building a GenAI Service Management Agent with custom LLM tool calls
+- **Identified 50% potential monthly cost savings** through AI-powered resource usage tracking and optimization
+- **Co-developed Stratum**, an open-source switch OS, in collaboration with Google and Intel
+- **Built production-grade infrastructure** supporting edge computing platforms and developer environments
 
-# Fedora
-sudo dnf install pandoc texlive-xetex
-```
+---
 
-## Usage
+## Tech Stack
 
-### Generate PDF
+### Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 
-Convert the markdown resume to PDF:
+### AI & Machine Learning
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-```bash
-make pdf
-```
+### Backend & Languages
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
 
-This will create `resume.pdf` with the following formatting:
-- 1-inch margins
-- 11pt font size
-- Clickable hyperlinks (blue)
-- Professional layout using XeLaTeX
+### DevOps & Tools
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-### Clean Generated Files
-
-Remove the generated PDF:
-
-```bash
-make clean
-```
-
-### Help
-
-Display available commands:
-
-```bash
-make help
-```
-
-## Files
-
-- `resume.md` - Source resume in Markdown format
-- `Makefile` - Build script for PDF generation
-- `resume.pdf` - Generated PDF (not tracked in git)
-
-## Customization
-
-To customize the PDF output, edit the pandoc options in the [Makefile](Makefile):
-
-- `-V geometry:margin=1in` - Adjust margins
-- `-V fontsize=11pt` - Change font size
-- `-V colorlinks=true` - Enable/disable colored links
-- `--pdf-engine=xelatex` - Switch PDF engine (pdflatex, lualatex, etc.)
-
-## Troubleshooting
-
-### "xelatex not found" error on macOS
-
-If you get this error after installing basictex, try these solutions:
-
-**First, check if basictex is fully installed:**
-
-If `/Library/TeX/texbin` doesn't exist, basictex wasn't fully installed. Reinstall it:
-```bash
-brew reinstall --cask basictex
-# Enter your password when prompted
-# Then restart your terminal
-```
-
-**If basictex is installed but not in PATH:**
-
-**Option 1: Restart your terminal (Recommended)**
-```bash
-# Close and reopen your terminal, then run:
-make pdf
-```
-
-**Option 2: Add TeX to PATH for current session**
-```bash
-export PATH="/Library/TeX/texbin:$PATH"
-make pdf
-```
-
-**Option 3: Add to shell profile permanently**
-
-For **zsh** (default on macOS):
-```bash
-echo 'export PATH="/Library/TeX/texbin:$PATH"' >> ~/.zshrc
-source ~/.zshrc
-```
-
-For **bash**:
-```bash
-echo 'export PATH="/Library/TeX/texbin:$PATH"' >> ~/.bash_profile
-source ~/.bash_profile
-```
